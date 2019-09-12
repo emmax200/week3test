@@ -17,6 +17,11 @@ nav
   background-color: orangered;
 }
 
+
+.container > div:first-child
+{
+  margin-left: -16px;
+}
 /***************************NAVBAR-BRAND*/
 
 .navbar-brand p
@@ -67,7 +72,7 @@ button
   transform: rotate(90deg);
   position: relative;
   top: 20px;
-  right: 7%;
+  right: 4%;
   border-radius: 10%;
   background-color: transparent;
   width: 30px;
@@ -94,18 +99,13 @@ button
   width: 20%;
 
 }
-#vac-list:hover
-{
-  transition: 0.3s ease;
-  background-color: #fff;
-  border-radius: 10%;
-}
+
 #nav-list a
 {
   margin: 20px;
-    color: #951C49;
-    font-size: 1.8em; 
-    padding: 0;
+  color: #951C49;
+  font-size: 1.8em; 
+  padding: 0;
 }
 
 #nav-list a:hover
@@ -120,7 +120,7 @@ button
   color: #000;
   font-size: 0.9em;
   padding: -50px;
-    margin: -50px;
+  margin: -50px;
   height: auto;
 }
 
@@ -171,6 +171,7 @@ h1
 }
 
 /******************************SECTIONS*/
+
 /********************SECTION 1 CHICKEN*/
 
 #section1
@@ -183,7 +184,6 @@ h1
   background-color: yellow;
   overflow: auto;
   height: 100%;
-
 }
 
 .chickk h2
@@ -206,12 +206,11 @@ h1
   color: #000;
   width: 100%;
   position: relative;
-  margin: 30px -15px 30px -15px;
-/*    margin-top: 30px;
-*/  background-color: orangered;
+  margin-top: 30px;
+  background-color: orangered;
   overflow: auto;
   height: auto;
-
+  
 
 }
 
